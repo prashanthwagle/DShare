@@ -1,0 +1,35 @@
+Private Network:
+Set up a switch, server and a PC
+Connect the entities through a copper straight through cable
+Give an IP address for the PC and subnet mask
+Ping the server with our PC
+Go to the server and start and FTP server with username and password
+
+
+Public Network:
+Step-1: Set up a topology: Star topology
+Step-2: Each system has a dedicated Server
+Step-3: Configure the Router and add the hardware pieces
+Step-4: Wire up through gigabit ethernet ports and copper straight through cables
+Step-5: Establish Internetwork communication by IOS codes Ref-1
+Step-6: Start pinging other internetwork PCs and Servers
+
+
+Works to be done:
+FTP in-between networks is posing a problem
+Finding a way (Protocol) to broadcast packets 
+Software part of the application is mostly unsupportive
+
+References: https://bit.ly/2CDAhJw
+
+Router Start:
+
+enable
+configure terminal
+interface gbi 
+ip address and Subnet mask
+no shutdown
+
+Exit from conf ter and iterface
+
+
